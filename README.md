@@ -5,9 +5,9 @@ This plugin takes a select input field and mirrors it with a stylable div constr
 ## Supported Browsers
 
 Tested on
-- Firefox 3.6
-- Chrome 7
-- Internet Explorer 8
+ - Firefox 3.6
+ - Chrome 7
+ - Internet Explorer 8
 
 ## How to use
 
