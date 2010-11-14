@@ -1,0 +1,50 @@
+body {
+    font-family: arial;
+    font-size: 13px;
+}
+
+/*
+    The whole selectbox container
+*/
+.jSelectbox {
+    cursor: pointer;
+    width: 154px;
+}
+
+/*
+    The selected value
+*/
+.jSelectbox .selected {
+    background: url(img/selectBox.gif) no-repeat;
+    height: 20px;
+    padding: 0px 15px 0px 5px;
+    line-height: 20px;
+}
+
+.jSelectbox .selected:hover {
+    background: url(img/selectBox_hover.gif) no-repeat;
+}
+
+/*
+    The list of options
+*/
+.jSelectbox ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 133px;
+}
+
+/*
+    The options
+*/
+.jSelectbox ul li {
+    cursor: default;
+    border: #555 1px solid;
+    border-top: none;
+    padding-left: 5px;
+}
+
+.jSelectbox ul li:hover {
+    color: #777;
+}
